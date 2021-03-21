@@ -1,0 +1,4 @@
+[
+    {"exchange": "binance", "base": "BTC", "quote": "USDT", "data_type":"tick,trade,orderbook"},
+    {"exchange": "huobi", "base": "BTC", "quote": "USDT", "data_type":"tick,trade,orderbook"}
+]
