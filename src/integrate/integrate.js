@@ -32,6 +32,8 @@ fs.readFile(path, function(err, data){
       instance.on("trade", trade => {
         console.log(trade)
       });
+      // subscribe to trades
+      instance.subscribeTrades(market);
      }
 	}
 });
